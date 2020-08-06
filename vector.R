@@ -44,3 +44,5 @@ vecLogic[vecLogic==0]
 vecChar = c("first"=1,"second"=2,"third"=3)
 
 vecChar["third"]
+
+vecChar[vecChar<=2] = 1
