@@ -33,4 +33,14 @@ vec[-2]
 
 #logical vector  as index
 
-vecLogic = []
+vecLogic = c(1,0,1,0)
+
+vecLogic[c(TRUE,FALSE,TRUE,TRUE)]
+
+vecLogic[vecLogic==0]
+
+#character vector
+
+vecChar = c("first"=1,"second"=2,"third"=3)
+
+vecChar["third"]
