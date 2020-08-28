@@ -1,6 +1,6 @@
 a = 10
 b = 5
-input= "+"
+input= "l"
 result = switch(   
     input,   
     "+"=print(a + b),   
@@ -8,5 +8,6 @@ result = switch(
     "/"=print(a / b),   
     "%%"=print(a %% b), 
     "*"=print(a * b),
+    print("hello")
 )   
     
